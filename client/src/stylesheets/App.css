@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #2B2B2B;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.login-button {
+  position: absolute;
+  width: 326px;
+  height: 85px;
+  left: 290px;
+  top: 483px;
+
+  background: #2B2B2B;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+.signup-button {
+  position: absolute;
+  width: 326px;
+  height: 85px;
+  right: 290px;
+  top: 483px;
+
+  background: #AA3A3A;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 9px;
+
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+
+h3 {
+  position: absolute;
+  width: 912px;
+  height: 178px;
+  top: calc(50% - 178px/2 - 225px);
+  
+  font-family: 'Readex Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.fade-in{
+  transition: opacity 1s ease;
+}
